@@ -15,10 +15,10 @@ var PORT = process.env.PORT || 8080;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// const apiRoutes = require('./app/routing/apiRoutes');
+const apiRoutes = require('./app/routing/apiRoutes');
 const htmlRoutes = require('./app/routing/htmlRoutes');
 
-// apiRoutes(app)
+apiRoutes(app)
 htmlRoutes(app)
 
 app.listen(PORT, function() {
