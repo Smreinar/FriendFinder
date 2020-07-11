@@ -40,7 +40,7 @@ module.exports = function(app){
             //use a for loop to go through the newFriend.scores
             for(var j = 0; j < newFriend.scores.length; j++){
                 /*Grab the absolute value of the newFriend.scores and each person in the database 'friendsData'
-                 and setting the new value to 'currentComparision' */
+                 and adding the new value for 'currentComparision' */
                 currentComparision += Math.abs(newFriend.scores[j] - friendsData[i].scores[j]);
 
             }
@@ -70,7 +70,7 @@ module.exports = function(app){
         // pushing the newFriend to friendsData to store in the database
         friendsData.push(newFriend)
 
-    })
+    });
 
 
 }
