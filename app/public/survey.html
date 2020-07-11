@@ -2,189 +2,470 @@
 <html lang='en'>
 
 <head>
-     <!--Bootstrap Link-->
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Bootstrap Link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--CSS-->
     <meta charset="UTF-8">
     <!-- Tittle -->
-    <title>Trivia Game</title>
-   
-   
+    <title>About You</title>
 
 </head>
+
 <br><br>
 
 <body>
 
 
     <div class="container">
-
+        <!-- Header -->
         <header>
-            <h1>Survey</h1>
-            <h4>1 being strongly disagree and 5 being strongly agreed</h4>
+            <h1 style="text-align:center; margin-bottom: 25px;"> Friend Finder</h1>
+
         </header>
+        <!-- End of Header -->
 
-        <br><br>
 
-        <div class="row">
+        <div class="card">
 
-            <div class="col-md-12">
+            <!-- Card Title -->
+            <div class="card-title">
 
-                
-                
-                <div id="qt1">
+                <h2 style="text-align:center; margin-top:25px; margin-bottom: 0px auto"><strong>About You</strong></h2>
+                <p>Fill out the fields below</p>
 
-                    <h3>1) Would you consider yourself an outdoors type of person?</h3>
-                    <select data-placeholder="" id="qtA1">
-                    <option  value="1" >1</option>
-                    <option  value="2" >2</option>
-                    <option  value="3" >3</option>
-                    <option  value="4" >4</option>
-                    <option  value="5" >5</option>
-                    </select>
+            </div>
+            <!-- End of Card Title -->
+
+            <!-- Card Body -->
+            <div class="card-body">
+
+                <h4>Name</h4>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Name</span>
+                    </div>
+                    <input type="text" class="form-control" id="nameForm" placeholder="Your Name Here" aria-label="name"
+                        aria-describedby="basic-addon1">
                 </div>
-                <br>
-                
-                <div id="qt2">
 
-                    <h3>2) Do you condsider your sense of adventure is strong?</h3>
-                    <select data-placeholder="" id="qtA2">
-                    <option  value="1" >1</option>
-                    <option  value="2" >2</option>
-                    <option  value="3" >3</option>
-                    <option  value="4" >4</option>
-                    <option  value="5" >5</option>
-                    </select>
-                </div>
                 <br>
-                
-                <div id="qt3">
 
-                    <h3>3) Do you enjoy reading books?</h3>
-                    <select data-placeholder="" id="qtA3">
-                    <option  value="1" >1</option>
-                    <option  value="2" >2</option>
-                    <option  value="3" >3</option>
-                    <option  value="4" >4</option>
-                    <option  value="5" >5</option>
-                    </select>
-                </div>
-                <br>
-                
-                <div id="qt4">
+                <h4>Photo Image</h4>
 
-                    <h3>4) Do you enjoy watching or playing sports?</h3>
-                    <select data-placeholder="" id="qtA4">
-                    <option  value="1" >1</option>
-                    <option  value="2" >2</option>
-                    <option  value="3" >3</option>
-                    <option  value="4" >4</option>
-                    <option  value="5" >5</option>
-                    </select>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Image Link</span>
+                    </div>
+                    <input type="text" class="form-control" id="imageForm" placeholder="Image's Link Here"
+                        aria-label="imageLink" aria-describedby="basic-addon1">
                 </div>
-                <br>
-                
-                <div id="qt5">
 
-                    <h3>5) Do you enjoy playing video games on your free time?</h3>
-                    <select data-placeholder="" id="qtA5">
-                    <option value="1" >1</option>
-                    <option value="2" >2</option>
-                    <option value="3" >3</option>
-                    <option value="4" >4</option>
-                    <option value="5" >5</option>
-                    </select>
-                </div>
-                <br>
-                
-                <div id="qt6">
 
-                    <h3>6) Do you enjoy gardening on your free time?</h3>
-                    <select data-placeholder="" id="qtA6">
-                    <option value="1" >1</option>
-                    <option value="2" >2</option>
-                    <option value="3" >3</option>
-                    <option value="4" >4</option>
-                    <option value="5" >5</option>
-                    </select>
-                </div>
                 <br>
-                
-                <div id="qt7">
+                <hr>
 
-                    <h3>7) Do you enjoy traveling or would want to travel the world?</h3>
-                    <select data-placeholder="" id="qtA7">
-                    <option  value="1" >1</option>
-                    <option  value="2" >2</option>
-                    <option  value="3" >3</option>
-                    <option  value="4" >4</option>
-                    <option  value="5" >5</option>
-                    </select>
+                <div class="">
+                    <p><strong>Answer the questions below with a number of 1-5.</strong></p> <p><strong>1</strong> being <strong>strongly disagree</strong> and <strong>5</strong> being <strong>Strongly Agree</strong>.</p> 
+                    <p>Remeber To answer as truthfuly as you can!</p>
                 </div>
-                <br>
-                
-                <div id="qt8">
+                <hr>
 
-                    <h3>8) Would you consider yourself a person who enjoys night clubs?</h3>
-                    <select data-placeholder="" id="qtA8">
-                    <option value="1" >1</option>
-                    <option value="2" >2</option>
-                    <option value="3" >3</option>
-                    <option value="4" >4</option>
-                    <option value="5" >5</option>
-                    </select>
-                </div>
-                <br>
-                
-                <div id="qt9">
+                <!-- Questions -->
+                <div class="row">
+                    <div class="col-md-12">
 
-                    <h3>9) Do you like animals</h3>
-                    <select data-placeholder="" id="qtA9">
-                    <option value="1" >1</option>
-                    <option value="2" >2</option>
-                    <option value="3" >3</option>
-                    <option value="4" >4</option>
-                    <option value="5" >5</option>
-                    </select>
-                
-                </div>
-                <br>
-                
-                <div id="qt10">
 
-                    <h3>10) Do you like swimming related sports?</h3>
-                    <select data-placeholder="" id="qtA10">
-                    <option value="1" >1</option>
-                    <option value="2" >2</option>
-                    <option value="3" >3</option>
-                    <option value="4" >4</option>
-                    <option value="5" >5</option>
-                    </select>
+
+                        <div id="qt1">
+
+                            <h3>1) Would you consider yourself an outdoors type of person?</h3>
+                            <select data-placeholder="" class="chosen-answer" id="qtA1">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+
+                        </div>
+                    </div>
                 </div>
+
                 <br>
+
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div id="qt2">
+
+                            <h3>2) Do you condsider your sense of adventure strong?</h3>
+                            <select data-placeholder="" class="chosen-answer" id="qtA2">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div id="qt3">
+
+                            <h3>3) Do you enjoy reading books?</h3>
+                            <select data-placeholder="" class="chosen-answer" id="qtA3">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div id="qt4">
+
+                            <h3>4) Do you enjoy watching or playing sports?</h3>
+                            <select data-placeholder="" class="chosen-answer" id="qtA4">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div id="qt5">
+
+                            <h3>5) Do you enjoy playing video games on your free time?</h3>
+                            <select data-placeholder="" class="chosen-answer" id="qtA5">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div id="qt6">
+
+                            <h3>6) Do you enjoy gardening on your free time?</h3>
+                            <select data-placeholder="" class="chosen-answer" id="qtA6">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div id="qt7">
+
+                            <h3>7) Do you enjoy traveling or would want to travel the world?</h3>
+                            <select data-placeholder="" class="chosen-answer" id="qtA7">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div id="qt8">
+
+                            <h3>8) Would you consider yourself a person who enjoys night clubs?</h3>
+                            <select data-placeholder="" class="chosen-answer" id="qtA8">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div id="qt9">
+
+                            <h3>9) Do you like animals</h3>
+                            <select data-placeholder="" class="chosen-answer" id="qtA9">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div id="qt10">
+
+                            <h3>10) Do you like swimming related sports?</h3>
+                            <select data-placeholder="" id="qtA10" class="chosen-answer">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+
+                        </div>
+
+                        <br>
+                    </div>
+                </div>
                 </form>
-            </div>
+                <!-- End of Questions -->
 
-            <div class="col-md-4">
-                <div id="done-button">
-                
-                    <button type="button" class="btn btn-success btn-lg" id="submitbtn">SUBMIT</button>
-                
+                <!-- Survey's Submit Button -->
+                <div class="col-md-12">
+                    <div id="done-button">
+                        <div class="text-center">
+                            <button type="button" class="btn btn-success btn-lg btn-center"
+                                id="submitbtn">SUBMIT</button>
+                        </div>
+                    </div>
                 </div>
+                <!-- End of Survey's Submit Button -->
+
+                <br>
+                <hr>
+                <!-- Footer -->
+                <div class="col-md-12">
+                    <footer class="footer">
+                        <div class="text-center">
+                            <p>
+                                <a href="/api/friends">API Friends List</a> | <a
+                                    href="https://github.com/Smreinar/FreindFinder" target="_blank">GitHub Repo</a> | <a
+                                    href="/">Home</a>
+                            </p>
+                        </div>
+                    </footer>
+                </div>
+                <!-- End of Footer -->
+
+
+                <!-- Match Modal -->
+                <div id="resultModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <!-- Modal Header (Title) -->
+                            <div class="modal-header">
+
+                                <h2 class="modal-title"><strong>Meet Your New Friend!</strong></h2>
+
+                            </div>
+
+                            <!-- Modal Body (Name and Photo) -->
+                            <div class="modal-body">
+
+                                <h2 id="matchName"></h2>
+                                <img id="matchImage" src="" alt="Image Not Found" style="max-width: 350px;">
+
+                            </div>
+
+                            <!-- Modal Footer (Close Button) -->
+                            <div class="modal-footer">
+
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- End of Match Modal -->
             </div>
+            <!-- End of Card Body -->
+
+            <br><br>
+            <br><br>
+
+
 
         </div>
-        <br><br><br><br>
-
-    </div>
 
 
 
     </div>
     <!--jQuery link-->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- BootStrap -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    
     <!--javascript-->
-   
+    <script>
+        
+        //Global Variables
+        var allFieldsComplete;//Boolean
+
+        //doc.ready for the Survey's Submit Button
+        $(document).ready(function () {
+
+            //On Click 'submitBtn'
+            $('#submitbtn').on('click', function () {
+                //checks to see if all input fields are filled out
+                checkIfComplete(function () {
+                    //if all input fields are filled then we will collect the user's data
+                    if (allFieldsComplete) {
+                        collectInput();
+                    }
+                    //else if input fields are not filled in then display an alert message
+                    else {
+                        alert('Please Fill out all input fields!');
+                    }
+                });
+
+
+            });
+
+        }); // End Doc.ready
+
+
+        //Delclare a Function that will check if each inputfield is filled (questions, name and photo)
+        function checkIfComplete(callback) {
+            //declared varibles inside function
+            var questionsComplete;
+
+            //checks if each question is filled.
+            $('.chosen-answer').each(function () {
+                    if ($(this).val == "") {
+                        questionsComplete = false;
+                    }
+                })
+                .promise().done(function () {
+
+                    //if questions are not filled then set global to false
+                    if (questionsComplete == false) {
+                        allFieldsComplete = false;
+
+                    }
+
+                    //else if name input is not filled then set global to false
+                    else if ($('#nameForm').val().trim() == "") {
+                        allFieldsComplete = false;
+                    }
+
+                    //else if image input is not filled then set global to false
+                    else if ($('#imageForm').val().trim() == "") {
+                        allFieldsComplete = false;
+                    }
+
+                    //else all input is filled then set global to true
+                    else {
+                        allFieldsComplete = true;
+                    }
+
+                    //using async callback to continue code execution
+                    callback();
+                });
+        }
+
+        //Declare a Function to that will Collect the user inputs
+        function collectInput() {
+
+            //newFriend object delcared with input values(name , photo and score) inside the object
+            var newFriend = {
+                name: $('#nameForm').val().trim(),
+                photo: $('#imageForm').val().trim(),
+                scores: []
+            };
+
+            //declare a empty array
+            var scoreArray = [];
+
+            //use .each to go through the Questions
+            $('.chosen-answer').each(function () {
+                    //push each score with parseInt to the array 'scoreArray'
+                    scoreArray.push(parseInt($(this).val()))
+                })
+                .promise().done(function () {
+                    //set the value of newFriend.score using the 'scoreArray' 
+                    newFriend.scores = scoreArray;
+
+                    //send a post to the back-end with the newFriend Object  
+                    $.post("/api/friends", newFriend, function (data) {
+                        // Get Best Match attributes and add them to the 'Modal'
+                        
+                        //Name
+                        $('#matchName').text(data.name);
+                        
+                        //Photo
+                        $('#matchImage').attr('src', data.photo);
+
+                        // Display best match modal by toggle
+                        $("#resultModal").modal('toggle');
+
+                    });
+                });
+
+        }
+    </script>
 
 
 
