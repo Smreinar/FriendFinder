@@ -23,7 +23,13 @@ Then you will run the following command in terminal
 ---
 
 ## Technologies
-    imgages/tech
+- express
+- path
+
+---
+
+## Code Snippets
+
 
 ---
 
