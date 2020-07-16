@@ -23,8 +23,9 @@ Then you will run the following command in terminal
 ---
 
 ## Technologies
-- express
-- path
+- node.js
+    - express
+    - path
 
 ---
 
