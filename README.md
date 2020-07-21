@@ -23,6 +23,9 @@ Then you will run the following command in terminal
 ---
 
 ## Technologies
+- HTML5
+- Bootsrap
+- CSS
 - node.js
     - express
     - path
