@@ -31,6 +31,16 @@ Then you will run the following command in terminal
 
 ## Code Snippets
 
+![friends-database-seed](https://user-images.githubusercontent.com/57015344/88010378-9b3e2580-cac9-11ea-87b4-42200397ba22.png)
+
+![friends-api-route-new-score](https://user-images.githubusercontent.com/57015344/88010391-a09b7000-cac9-11ea-94fb-9dd32cad44ca.png)
+
+![friends-api-route-comparing-data](https://user-images.githubusercontent.com/57015344/88010402-a5f8ba80-cac9-11ea-9d65-20b7e8c26891.png)
+
+![friends-collectInput-function](https://user-images.githubusercontent.com/57015344/88010412-ab560500-cac9-11ea-8667-166fe53d26c2.png)
+
+![friends-checkIfComplete-function](https://user-images.githubusercontent.com/57015344/88010423-b1e47c80-cac9-11ea-8870-f444707e8746.png)
+
 
 ---
 
